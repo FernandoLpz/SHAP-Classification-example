@@ -1,5 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
+
 class Data:
 
     def __init__(self, csv_path: str) -> None:
@@ -20,7 +21,7 @@ class Data:
 
     def _split(self) -> None:
         self.x_train, self.x_test, self.y_train, self.y_test = \
-            train_test_split(self.data.drop(['diagnosis_result'], axis=1), self.data['diagnosis_result'], test_size=0.15)
+            train_test_split(self.data.drop(['diagnosis_result'], axis=1), self.data['diagnosis_result'], test_size=0.25)
 
     def __len__(self) -> int:
         return self.data.shape[0]
