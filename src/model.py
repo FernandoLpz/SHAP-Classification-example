@@ -59,7 +59,7 @@ class Classifier:
         
         # Hyperparameter Optimization
         study = optuna.create_study(direction='maximize')
-        study.optimize(self._optimize, n_trials=100)
+        study.optimize(self._optimize, n_trials=10)
 
         # Train with optimal paramters
         self.model = RandomForestClassifier(n_estimators=study.best_params['n_estimators'],
