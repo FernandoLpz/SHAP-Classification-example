@@ -55,7 +55,7 @@ Feel free to fork the model and add your own suggestiongs.
 ## 5. Contact
 If you have any question, feel free to reach me out at:
 * <a href="https://twitter.com/Fernando_LpzV">Twitter</a>
-* <a href="https://ferneutron.medium.com/>Medium</a>
+* <a href="https://ferneutron.medium.com/">Medium</a>
 * <a href="https://www.linkedin.com/in/fernando-lopezvelasco/">Linkedin</a>
 * Email: fer.neutron@gmail.com
 
